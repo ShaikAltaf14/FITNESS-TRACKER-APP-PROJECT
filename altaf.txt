@@ -1,41 +1,4 @@
-
-altaf@DESKTOP-0PC2PD8:~$ pwd
-/home/altaf
-altaf@DESKTOP-0PC2PD8:~$ ls
-day1  day11
-altaf@DESKTOP-0PC2PD8:~$ cd /home/altaf/day11
-altaf@DESKTOP-0PC2PD8:~/day11$ ls
-altaf@DESKTOP-0PC2PD8:~/day11$ touch alt.txt
-altaf@DESKTOP-0PC2PD8:~/day11$ nano alt.txt
-altaf@DESKTOP-0PC2PD8:~/day11$ chsh
-Password:
-Changing the login shell for altaf
-Enter the new value, or press ENTER for the default
-        Login Shell [/bin/bash]:  /usr/bin/rbash
-altaf@DESKTOP-0PC2PD8:~/day11$ echo "my current shell $SHELL is ($o)"
-my current shell /bin/bash is ()
-altaf@DESKTOP-0PC2PD8:~/day11$ chsh
-Password:
-Changing the login shell for altaf
-Enter the new value, or press ENTER for the default
-        Login Shell [/usr/bin/rbash]:
-
-cat: trial.sh: No such file or directory
-altaf@DESKTOP-0PC2PD8:~/day11$ touch trials.sh
-altaf@DESKTOP-0PC2PD8:~/day11$ nano trials.sh
-altaf@DESKTOP-0PC2PD8:~/day11
-altaf@DESKTOP-0PC2PD8:~$ touch file1.sh
-altaf@DESKTOP-0PC2PD8:~$ nano file1.sh
-altaf@DESKTOP-0PC2PD8:~$ bash file1.sh
-enter the count:49
-too much
-altaf@DESKTOP-0PC2PD8:~$ touch file5.sh
-altaf@DESKTOP-0PC2PD8:~$ nano file5.sh
-altaf@DESKTOP-0PC2PD8:~$ bash file5.sh
-counting from 1 to 20, now at seq
-counting from 1 to 20, now at 1
-counting from 1 to 20, now at 20
-                                                      
+                                  
 
 
 
