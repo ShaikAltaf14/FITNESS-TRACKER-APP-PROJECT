@@ -1,19 +1,19 @@
-guru@LAPTOP-U22JD5NS:~$ pwd
-/home/guru
-guru@LAPTOP-U22JD5NS:~$ mkdir day11
-guru@LAPTOP-U22JD5NS:~$ cd /home/guru/day11
-guru@LAPTOP-U22JD5NS:~/day11$ ls
-guru@LAPTOP-U22JD5NS:~/day11$ touch ram.txt
-guru@LAPTOP-U22JD5NS:~/day11$ nano ram.txt
-guru@LAPTOP-U22JD5NS:~/day11$ cat ram.txt
+altaf@LAPTOP-U22JD5NS:~$ pwd
+/home/altaf
+altaf@LAPTOP-U22JD5NS:~$ mkdir day11
+altaf@LAPTOP-U22JD5NS:~$ cd /home/altaf/day11
+altaf@LAPTOP-U22JD5NS:~/day11$ ls
+altaf@LAPTOP-U22JD5NS:~/day11$ touch ram.txt
+altaf@LAPTOP-U22JD5NS:~/day11$ nano ram.txt
+altaf@LAPTOP-U22JD5NS:~/day11$ cat ram.txt
 wonder
 
-guru@LAPTOP-U22JD5NS:~/day11$ touch rama.txt
-guru@LAPTOP-U22JD5NS:~/day11$ nano rama.txt
-guru@LAPTOP-U22JD5NS:~/day11$ cat rama.txt
+altaf@LAPTOP-U22JD5NS:~/day11$ touch rama.txt
+altaf@LAPTOP-U22JD5NS:~/day11$ nano rama.txt
+altaf@LAPTOP-U22JD5NS:~/day11$ cat rama.txt
 hello boy
-guru@LAPTOP-U22JD5NS:~/day11$ cp ram.txt rama.txt
-guru@LAPTOP-U22JD5NS:~/day11$ cat ram.txt
+altaf@LAPTOP-U22JD5NS:~/day11$ cp ram.txt rama.txt
+altaf@LAPTOP-U22JD5NS:~/day11$ cat ram.txt
 wonder
 
 guru@LAPTOP-U22JD5NS:~/day11$ cat rama.txt
