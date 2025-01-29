@@ -23,44 +23,12 @@ Enter the new value, or press ENTER for the default
 cat: trial.sh: No such file or directory
 altaf@DESKTOP-0PC2PD8:~/day11$ touch trials.sh
 altaf@DESKTOP-0PC2PD8:~/day11$ nano trials.sh
-altaf@DESKTOP-0PC2PD8:~/day11$ cat trials.sh
-if [ -f file.txt ]
-then echo "the file exist"
-else echo "the file doesn't exist"
-fi
-altaf@DESKTOP-0PC2PD8:~/day11$ bash trials.sh
-the file doesn't exist
-
-altaf@DESKTOP-0PC2PD8:~$ touch file1.txt1
-altaf@DESKTOP-0PC2PD8:~$ nano file1.txt
+altaf@DESKTOP-0PC2PD8:~/day11
 altaf@DESKTOP-0PC2PD8:~$ touch file1.sh
 altaf@DESKTOP-0PC2PD8:~$ nano file1.sh
 altaf@DESKTOP-0PC2PD8:~$ bash file1.sh
 enter the count:49
-too much.
-IN FILE 
-altaf@DESKTOP-0PC2PD8:~$ echo -n enter the count:
-read count
-if [ $count -eq 42 ]
-then
-echo "42 is correct."
-elif [ $count -gt 42 ]
-then
-echo "too much."
-else
-echo "not enough."
-fi
-enter the count:
-
-
-for counter in seq 1 20
-do
-echo counting from 1 to 20, now at $counter
-sleep 1
-done
-
-
-code
+too much
 altaf@DESKTOP-0PC2PD8:~$ touch file5.sh
 altaf@DESKTOP-0PC2PD8:~$ nano file5.sh
 altaf@DESKTOP-0PC2PD8:~$ bash file5.sh
@@ -68,21 +36,6 @@ counting from 1 to 20, now at seq
 counting from 1 to 20, now at 1
 counting from 1 to 20, now at 20
                                                       
-for counter in  $(seq 1 20)
-do
-   echo "counting from 1 to 20, now at $counter"
-   sleep 1
-done
-
-echo -n enter the number a:
-read a
-while [ "$a" -lt 10 ]
-do
-  echo "$a"
-  a=$((a + 1))
-done
-
-
 
 
 
