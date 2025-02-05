@@ -39,19 +39,19 @@ class User:
         print(f"Target Steps: {self.target_steps} steps | Steps Taken: {self.total_steps} steps")
 
 
-# Example of usage
+
 if __name__ == "__main__":
-    # Create a user
+    
     user = User(name="John Doe", age=30, weight=75, height=1.75)
 
-    # User performs some workouts
+    
     user.update_workout(workout_type="Running", duration_minutes=30, calories_burned=300, steps=4000)
     user.update_workout(workout_type="Cycling", duration_minutes=45, calories_burned=500, steps=600)
 
-    # Set fitness goals
+    
     user.set_goal(target_calories=1000, target_steps=10000)
 
-    # Show user summary and progress
+    
     user.show_summary()
     user.check_progress()
 
